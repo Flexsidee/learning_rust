@@ -1,7 +1,8 @@
 fn main(){
-  let mut x: i32 = 1;
-  x += 2;
+  define_x()
+}
 
-  assert_eq!(x, 3);
-  println!("Success")
+fn define_x(){
+  let x: &str = "hello";
+  println!("{}, world", x);
 }
