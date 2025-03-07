@@ -1,5 +1,7 @@
 fn main(){
-  let a: i32 = 24;
+  let mut x: i32 = 1;
+  x += 2;
 
-  println!("{}", a)
+  assert_eq!(x, 3);
+  println!("Success")
 }
